@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Displaying all the comments</h1>
+
+        <% for(let item of comments){ %>
+            <h1><%= item.id %></h1>
+            <h2><%= item.username %></h2>
+            <p><%= item.comment %></p>
+        <% } %>
+
+</body>
+</html>
