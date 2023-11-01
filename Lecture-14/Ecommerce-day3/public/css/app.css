@@ -1,0 +1,25 @@
+
+:root{
+    --main-color: #0077b6;
+}
+main{
+    margin-top: 5.5rem;
+}
+
+.img{
+    height: 200px;
+    width: 100%;
+
+}
+
+.product-card .btn{
+    background-color: var(--main-color) ;
+}
+
+.product-card{
+    height: 60vh;
+}
+
+.margin-form{
+    margin-top: 100px;
+}
