@@ -4,6 +4,7 @@ const path = require('path');
 const mongoose = require('mongoose');
 const seedDB = require('./seed');
 const productRoutes = require('./routes/productRoutes');
+const reviewRoutes = require('./routes/reviewRoutes');
 const methodOverride = require('method-override')
 
 // database connection
@@ -23,6 +24,7 @@ app.use(methodOverride('_method'))//method override
 
 // using all the routes in order to verify the path an run the function
 app.use(productRoutes);
+app.use(reviewRoutes);
 
 
 // adding dummy data to the collection
