@@ -1,0 +1,13 @@
+<%if(success && success.length){%>
+    <div class="alert alert-warning alert-dismissible fade show margin-form" role="alert">
+        <strong><%=success%></strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+<%}%>
+
+<%if(error && error.length){%>
+    <div class="alert alert-warning alert-dismissible fade show margin-form" role="alert">
+        <strong><%=error%></strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+<%}%>
