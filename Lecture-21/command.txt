@@ -1,0 +1,10 @@
+1. pwd
+2. cd
+3. cd ..  or  cd ../..
+4. ls  or  la -a  or  ls -la
+5. mkdir
+6. touch 
+7. cat 
+8. vim
+9. history
+10. cp  or cp -r
